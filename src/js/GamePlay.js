@@ -1,3 +1,4 @@
+import themes from './themes';
 import { calcHealthLevel, calcTileType } from './utils';
 
 export default class GamePlay {
@@ -61,6 +62,7 @@ export default class GamePlay {
     }
 
     this.cells = Array.from(this.boardEl.children);
+    console.log(theme);
   }
 
   /**

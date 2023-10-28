@@ -13,7 +13,7 @@
  * */
 export default class Team {
   // TODO: write your logic here
-  constructor(arrayOfCharacters) {
-    this.characters = arrayOfCharacters;
+  constructor(characters) {
+    this.characters = characters;
   }
 }
